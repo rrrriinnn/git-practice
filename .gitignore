@@ -1,0 +1,22 @@
+﻿# Python 실행 중 생성되는 파일
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# 원본 데이터와 예측 결과
+master_reg.csv
+worldcup_goal_predictions.csv
+
+# 개인 설정과 인증 정보
+.env
+.env.*
+*.pem
+*.key
+.vscode/
+.idea/
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
